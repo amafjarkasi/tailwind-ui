@@ -1,3 +1,10 @@
 /* 
     General Styles
 */
+
+@import url(https://tailwindui.com/css/components-v2.css);
+@import url(https://rsms.me/inter/inter.css);
+@import "node_modules/tailwindcss/base";
+@import "node_modules/tailwindcss/components";
+@import "node_modules/tailwindcss/utilities";
+

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
@@ -9,6 +10,7 @@ import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { Stats } from "./component/stats";
 
 //create your first component
 const Layout = () => {
