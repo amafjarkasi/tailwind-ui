@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import { Link } from "react-router-dom";
 import { Stats } from "../component/stats";
 import { Context } from "../store/appContext";
+import { DividerIcon } from "../component/dividericon";
+import { FullWidthSideBar } from "../views/fwsidebar";
 import "../../styles/index.scss";
 
 export const Home = () => {
@@ -414,8 +416,9 @@ export const Home = () => {
 								<div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
 									{/* Replace with your content */}
 									<div className="py-4">
-										<div className="border-4 border-dashed border-gray-200 rounded-lg h-96">
+										<div className="border-4 border-none border-gray-200 rounded-lg h-128">
 											<Stats />
+											<DividerIcon />
 										</div>
 									</div>
 									{/* /End replace */}

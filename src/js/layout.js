@@ -9,6 +9,7 @@ import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
 import { Navbar } from "./component/navbar";
+import { FullWidthSideBar } from "./views/fwsidebar";
 import { Footer } from "./component/footer";
 import { Stats } from "./component/stats";
 
@@ -29,6 +30,9 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/demo">
 							<Demo />
+						</Route>
+						<Route exact path="/fw">
+							<FullWidthSideBar />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />
