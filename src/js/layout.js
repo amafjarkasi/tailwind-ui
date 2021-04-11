@@ -4,6 +4,7 @@ import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
+import { FullInbox } from "./views/fullinbox";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
@@ -31,7 +32,7 @@ const Layout = () => {
 							<Demo />
 						</Route>
 						<Route exact path="/fw">
-							<FullWidthSideBar />
+							<FullInbox />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />
